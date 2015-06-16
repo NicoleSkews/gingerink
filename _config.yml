@@ -1,3 +1,8 @@
-name: Ginger Ink
-description: Ginger Ink tagline thing
-paginate: 10
+name:             Ginger Ink
+title:            Ginger Ink
+tagline:          'Words with purpose'
+description:      'Words with purpose'
+url:              http://gingerink.co.nz
+author:
+  name:           'Nicole Skews'
+  url:            http://gingerink.co.nz
