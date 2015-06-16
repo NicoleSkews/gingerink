@@ -28,39 +28,15 @@
 
 		<!-- Header -->
 			<div id="header">
-						
-				<!-- Logo -->
-					<h1><a href="/index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
 				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
 							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="/index.html">Home</a></li>
-							<li>
-								<a href="">Dropdown</a>
-								<ul>
-									<li><a href="#">Lorem dolor</a></li>
-									<li><a href="#">Magna phasellus</a></li>
-									<li><a href="#">Etiam sed tempus</a></li>
-									<li>
-										<a href="">Submenu</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Veroeros feugiat</a></li>
-								</ul>
-							</li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="/blog">Blog</a></li>
-							<li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="/left-sidebar.html">Left Sidebar</a></li>
-							<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="/right-sidebar.html">Right Sidebar</a></li>
-							<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="/two-sidebar.html">Two Sidebar</a></li>
-							<li {% if current[1] == 'no-sidebar.html' %}class="current"{% endif %}><a href="/no-sidebar.html">No Sidebar</a></li>
+							<li {% if current[1] == 'services.html' %}class="current"{% endif %}><a href="/services.html">What We Do</a></li>
+							<li {% if current[1] == 'enquiries.html' %}class="current"{% endif %}><a href="/enquiries.html">Make An Enquiry</a></li>
+							<li {% if current[1] == 'about.html' %}class="current"{% endif %}><a href="/about.html">About Us</a></li>
 						</ul>
 					</nav>
 
