@@ -1,6 +1,6 @@
 ---
 title: Contact form
-subheading: Subheading goes here
+subheading: ""
 layout: default
 ---
 <section class="wrapper style1">
@@ -15,8 +15,7 @@ layout: default
 		  <div class="row collapse-at-2">
   			<!-- Contact form -->			
   			<section class="6u">
-        <form action="//formspree.io/{{ site.contact }}"
-              method="POST">
+        <form action="//formspree.io/{{ site.contact }}" method="POST">
                 
                 <input type="hidden" name="_next" value="//gingerink.co.nz/thanks.html" />
                 <input type="hidden" name="_subject" value="Ginger Ink enquiry" />
@@ -51,7 +50,7 @@ layout: default
 
       					<div class="row">
       						<div class="6u">
-      							<input type="number" name="pages" id="pages" placeholder="Number of pages" />
+      							<input type="number" name="pages" id="pages" placeholder="Number of pages or contact areas" />
       						</div>
                   <div class="6u">
       							<input type="date" name="deadline" id="deadline" placeholder="Deadline" />
@@ -77,4 +76,4 @@ layout: default
       </div>
            
 		</div>
-	</div>
+	</div></section>
