@@ -27,12 +27,14 @@
 	</head>
 	
 	<body>
-  	<nav id="nav">
-  		<ul>
-  			{% assign current = page.url | downcase | split: '/' %}
-  			<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="/index.html">Home</a></li>
-  			<li {% if current[1] == 'services.html' %}class="current"{% endif %}><a href="services.html">What We Do</a></li>
-  			<li {% if current[1] == 'contact.html' %}class="current"{% endif %}><a href="contact.html">Make An Enquiry</a></li>
-  			<li {% if current[1] == 'about.html' %}class="current"{% endif %}><a href="about.html">About Us</a></li>
-  		</ul>
-  	</nav>
+  	<div id="header">
+    	<nav id="nav">
+    		<ul>
+    			{% assign current = page.url | downcase | split: '/' %}
+    			<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="/index.html">Home</a></li>
+    			<li {% if current[1] == 'services.html' %}class="current"{% endif %}><a href="services.html">What We Do</a></li>
+    			<li {% if current[1] == 'contact.html' %}class="current"{% endif %}><a href="contact.html">Make An Enquiry</a></li>
+    			<li {% if current[1] == 'about.html' %}class="current"{% endif %}><a href="about.html">About Us</a></li>
+    		</ul>
+    	</nav>
+  	</div>
