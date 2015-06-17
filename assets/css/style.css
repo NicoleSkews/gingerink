@@ -579,16 +579,9 @@
 				letter-spacing: -0.025em;
 				border: 0;
 			}
-
-  @media screen and (min-width: 0px) and (max-width: 400px) {
-    #nav { display: block; }  /* show it on small screens */
-  }
   
-  @media screen and (min-width: 401px) and (max-width: 1024px) {
-    #nav { display: none; }   /* hide it elsewhere */
-  }
-
 	#nav {
+  	display: none;
 		cursor: default;
 		background-color: #333;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -598,6 +591,10 @@
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		padding: 0;
 	}
+
+  @media screen and (min-width: 0px) and (max-width: 400px) {
+    #nav { display: block; }  /* show it on small screens */
+  }
 
 		#nav:after {
 			content: '';
