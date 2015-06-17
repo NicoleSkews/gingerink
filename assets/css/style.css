@@ -842,4 +842,5 @@
 		.homepage-button:hover {
 			background-color: #50c8fb;
 			color: #f1f1f1 !important;
+			cursor: pointer;
 		}
