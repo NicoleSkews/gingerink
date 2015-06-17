@@ -12,16 +12,43 @@ layout: default
 				<p>{{ page.subheading }}</p>
 			</header>
 
-			<p class="editable">This contact form needs some words and some work.</p>
+			<div class="row">
+				<div class="6u">
+					<div class="row collapse-at-2">
+						<section class="6u">
+              <p class="editable">We’ll take this information and provide you with an initial quote. Depending on the scope of your project we may ask you to complete a briefing form which we’ll provide you with, in order to provide a more accurate quote.</p>
+						</section>
 
-			<!-- Contact form -->			
-      <form action="//formspree.io/rob@prng.net"
-            method="POST">
-          <input type="text" name="name">
-          <input type="email" name="_replyto">
-          <input type="submit" value="Send">
-      </form>
-	
+      			<!-- Contact form -->			
+      			<section class="6u">
+      				<h3>Get In Touch</h3>
+            <form action="//formspree.io/rob@prng.net"
+                  method="POST">
+      					<div class="row half collapse-at-2">
+      						<div class="6u">
+      							<input type="text" name="name" id="name" placeholder="Name" />
+      						</div>
+      						<div class="6u">
+      							<input type="email" name="_replyto" id="email" placeholder="Email" />
+      						</div>
+      					</div>
+      					<div class="row half">
+      						<div class="12u">
+      							<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+      						</div>
+      					</div>
+      					<div class="row half">
+      						<div class="12u">
+      							<ul class="actions">
+      								<li><input type="submit" class="button alt" value="Send" /></li>
+      							</ul>
+      						</div>
+      					</div>
+      				</form>
+      			</section>
+          </div>
+        </div>
+			</div>
 		</div>
 	</div>
 </section>
