@@ -1,0 +1,7 @@
+/*
+	Suppresses the top nav bar on full width layouts of the home page.	
+*/
+
+#nav {
+	display: none;
+}
