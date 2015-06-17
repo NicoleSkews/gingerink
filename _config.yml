@@ -1,6 +1,10 @@
 title:            Ginger Ink
 tagline:          'Words with purpose'
 description:      'Words with purpose'
+keywords:
+- First Keyword
+- Second Keyword
+- Third Keyword
 url:              http://gingerink.co.nz
 author:
   name:           'Nicole Skews-Poole'
