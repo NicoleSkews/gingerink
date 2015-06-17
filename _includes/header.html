@@ -27,29 +27,18 @@
 	</head>
 	<body>
     <!-- Selectively disable top nav bar on the home page -->   	
+    	<div id="header">
 		{% if page.title == "Home" %}
-    	<div id="header">
     		<nav id="nav" class="homepagenav">
-    			<ul>
-    				{% assign current = page.url | downcase | split: '/' %}
-    				<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="/index.html">Home</a></li>
-    				<li {% if current[1] == 'services.html' %}class="current"{% endif %}><a href="services.html">What We Do</a></li>
-    				<li {% if current[1] == 'contact.html' %}class="current"{% endif %}><a href="contact.html">Make An Enquiry</a></li>
-    				<li {% if current[1] == 'about.html' %}class="current"{% endif %}><a href="about.html">About Us</a></li>
-    			</ul>
-    		</nav>  
-    	</div>
-    {% else %}
-    	<div id="header">
+        {% else %}
     		<nav id="nav">
+        {% endif %}
     			<ul>
     				{% assign current = page.url | downcase | split: '/' %}
     				<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="/index.html">Home</a></li>
-    				<li {% if current[1] == 'services.html' %}class="current"{% endif %}><a href="services.html">What We Do</a></li>
-    				<li {% if current[1] == 'contact.html' %}class="current"{% endif %}><a href="contact.html">Make An Enquiry</a></li>
-    				<li {% if current[1] == 'about.html' %}class="current"{% endif %}><a href="about.html">About Us</a></li>
+    				<li {% if current[1] == 'services.html' %}class="current"{% endif %}><a href="services.html">What we do</a></li>
+    				<li {% if current[1] == 'contact.html' %}class="current"{% endif %}><a href="contact.html">Make an enquiry</a></li>
+    				<li {% if current[1] == 'about.html' %}class="current"{% endif %}><a href="about.html">About us</a></li>
     			</ul>
     		</nav>  
     	</div>
-    {% endif %}
-
