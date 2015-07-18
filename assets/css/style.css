@@ -866,4 +866,6 @@
       margin-left: auto;
       margin-right: auto 
     }
-  
+    .page-banner {
+      background-image: url('/assets/images/page-banner.jpg');
+    }
