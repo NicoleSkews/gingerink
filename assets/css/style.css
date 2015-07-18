@@ -194,7 +194,7 @@
 	input[type="tel"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #37c0fb;
+			border-color: #d8721e;
 		}
 
 	input[type="text"],
@@ -613,7 +613,7 @@
 			display: block;
 			width: 100%;
 			height: 0.75em;
-			background-color: #37c0fb;
+			background-color: #d8721e;
 			background-image: url("images/bg01.png");
 		}
 
@@ -781,7 +781,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #37c0fb;
+			background-color: #d8721e;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -796,7 +796,7 @@
 			}
 
 				.wrapper.style3 .button:hover {
-					color: #37c0fb !important;
+					color: #d8721e !important;
 				}
 
 /* CTA */
@@ -829,7 +829,7 @@
 		}
 
 			#footer a:hover {
-				color: #37c0fb;
+				color: #d8721e;
 				border-bottom-color: transparent;
 			}
 
