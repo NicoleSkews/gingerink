@@ -497,7 +497,7 @@
 		input[type="reset"].alt,
 		input[type="button"].alt,
 		.button.alt {
-			background-color: #555555;
+			background-color: #d8721e;
 			color: #fff;
 		}
 
@@ -505,14 +505,14 @@
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: #626262;
+				background-color: #f4cc75;
 			}
 
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: #484848;
+				background-color: #f4cc75;
 			}
 
 		input[type="submit"].icon:before,
