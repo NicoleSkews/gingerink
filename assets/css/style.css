@@ -918,14 +918,12 @@
   float: right;
 }
 
-.quote-phrase,
-.quote-author {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 5px 20px;
+.quoteContainer {
+  display: table;
+  width: 100%;
+  font-style: italic;
 }
 
-.quoteContainer,
 .authorContainer {
   display: table;
   width: 100%;
