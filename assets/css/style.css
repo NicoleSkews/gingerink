@@ -11,7 +11,7 @@
 
 	body,
 	#skel-layers-wrapper {
-		background: #f7f7f7 url("images/bg01.png");
+		background: #f8f8f8 url("images/bg01.png");
 	}
 
 	body.is-loading * {
@@ -781,7 +781,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #d8721e;
+			background-color: #d9731e;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -857,7 +857,7 @@
 			font-size: 0.9em;
 		}
 		.homepage-button:hover {
-			background-color: #f4cc75;
+			background-color: #f5cd76;
 			color: #f1f1f1 !important;
 			cursor: pointer;
 		}
