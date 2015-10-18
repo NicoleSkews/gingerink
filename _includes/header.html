@@ -10,27 +10,27 @@
 		</title>
 		
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-    <link rel="canonical" href="http://gingerink.co.nz/">
+    <link rel="canonical" href="{{ site.url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="copywriting, content creation, new zealand, wellington, auckland, communications, pr, public relations, freelance, content development, annual reports, copy writing" >
-    <meta name="description" content="A freelance communications service creating engaging content with your audience in mind.">
+		<meta name="keywords" content="{{ site.keywords | join: ', '}}" />
+		<meta name="author" content="{{ site.author }}"
+    <meta name="description" content="{{ site.description }}">
     
-    <meta property="og:title" content="Words with purpose" >
-    <meta property="og:site_name" content="Ginger Ink">
-    <meta property="og:url" content="http://gingerink.co.nz/" >
-    <meta property="og:description" content="A freelance communications service creating engaging content with your audience in mind." >
-    <meta property="og:image" content="http://gingerink.co.nz/siteicon.png" >
+    <meta property="og:title" content="{{ site.tagline }}" >
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:url" content="{{ site.url }}" >
+    <meta property="og:description" content="{{ site.description }}" >
+    <meta property="og:image" content="{{ site.image }}" >
     <meta property="og:type" content="website" >
     <meta property="og:locale" content="en_NZ" >
     
     <meta property="twitter:card" content="summary" >
-    <meta property="twitter:title" content="Words with purpose." >
-    <meta property="twitter:description" content="A freelance communications service creating engaging content with your audience in mind." >
+    <meta property="twitter:title" content="{{ site.tagline }}" >
+    <meta property="twitter:description" content="{{ site.description }}" >
     <meta property="twitter:creator" content="@coleytangerina" >
-    <meta property="twitter:url" content="http://gingerink.co.nz/" >
-    <meta property="twitter:image" content="http://gingerink.co.nz/siteicon.png" >		
+    <meta property="twitter:url" content="{{ site.url }}" >
+    <meta property="twitter:image" content="{{ site.image }}" >		
 		
-		<meta name="keywords" content="{{ site.keywords | join: ', '}}" />
 
 		<link rel="stylesheet" href="/assets/css/skel.css" />
 		<link rel="stylesheet" href="/assets/css/style.css" />
@@ -46,7 +46,6 @@
 		<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
 		
 		<link rel="shortcut icon" href="/assets/images/favicon.ico" />
-
 
 	</head>
 
